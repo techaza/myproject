@@ -66,6 +66,37 @@ void main() {
   print(l>>2);
   print(l<<3);
 
+  print('\nDart operator\n');
+  int Data=100;
+  print((Data is int));
+  print((Data is! int));
+  print((Data as int));
+
+  print('\nTernary operator\n');
+  ///syntax? true statement : false statement ;
+  var age=20;
+  var result=age>=18?"welcome to vote":"not eligible";
+  print(result);
+  var mark=40;
+  var result1=mark<40 ? "failed":"passed";
+  print(result1);
+
+  var un='admin';
+  var pw=12345;
+  // var login = (un=='admin' && pw=12345)
+
+  var num1=40,num2=50;
+  var result3= num1<num2 ? 50:40;
+  print(result3);
+  print('$result3 is largest');
+
+  print('\nlargest of 3\n');
+  var w=10,u=15,v=25;
+  var big= (w>u)?(w>v?'w is greater':'v is greater'):(u>v?'u is greater':'v is greater');
+  print(big);
+
+
+
 
 
 
