@@ -11,7 +11,11 @@ void main()
   var grade=double.parse( stdin.readLineSync()!);
   print("hello $name");
   print("Your age is $age");
-  print("Your grade is $grade");
+  print("Your grade is $grade\n\n");
+  stdout.write("hello $name,Your age is $age,Your grade is $grade\n\n");
+  stdout.writeln("hello $name,Your age is $age,Your grade is $grade");
+
+
 
 
 
